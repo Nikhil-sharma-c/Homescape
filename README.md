@@ -1,4 +1,4 @@
-# PropTech Ecosystem Platform
+# Homescape Ecosystem Platform
 
 A modular, multi-sided marketplace connecting property buyers/renters with builders/developers through AI-powered discovery, 3D visualization, and intelligent lead management.
 
@@ -7,7 +7,7 @@ A modular, multi-sided marketplace connecting property buyers/renters with build
 This is a monorepo using Turborepo with the following structure:
 
 ```
-proptech-ecosystem/
+Homescape-ecosystem/
 ├── packages/
 │   └── api/              # Backend API (Node.js + TypeScript + Express)
 ├── apps/
@@ -200,7 +200,7 @@ The database includes the following main tables:
 
 ### AI & External Services
 - **Vector Search**: OpenAI text-embedding-3-small
-- **3D Generation**: World Labs Marble API
+- **3D Generation**: Qwen or Nano banana API
 - **Telephony**: Twilio
 - **Transcription**: AWS Transcribe
 - **Storage**: AWS S3
